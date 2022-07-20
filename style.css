@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1f2937;
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+section{
+    background-color: white;
+}
+
+div{
+    padding: 100px;
+    background-color: #E6E7EB;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.lastsection{
+    padding: 100px;
+    background-color: #F9FAF8;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.insidesection{
+    background-color: #3882F6;
+    border-radius: 25px;
+    text-align: center;
+}
+
+button{
+    border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
+    padding: 2.5%;
+}
+
+
+footer{
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+}
+
+a{
+  color: white;  
+}
+.lunarboxes{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    /* grid-gap: 10px 10px; */
+}
+
+.boxone,
+.boxtwo,
+.boxthree,
+.boxfour,
+.boxfive,
+.boxsix,
+.boxseven,
+.boxeight{
+    border: 5px solid #3882F6;
+    border-radius: 25px;
+    padding: 2.5%;
+    margin: 10em;
+}
+
+.lunardescription{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36px;
+    color: #1F2937;
+    margin: 50px;
+}
+
+img{
+   height:200px;
+   width: 200px;
+}
+
