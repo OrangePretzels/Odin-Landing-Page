@@ -1,63 +1,76 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
 }
+
+/* Header Section */
 
 header{
-    background-color: #1f2937;
+    background-color: #1F2937;
     color: #F9FAF8;
-    font-size: 48px;
-    font-weight: 800;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 10rem;
+    padding-right: 10rem;
 }
 
-
-section{
-    background-color: white;
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 10px;
 }
 
-div{
-    padding: 100px;
-    background-color: #E6E7EB;
-    font-size: 36px;
-    color: #1f2937;
+.headerlogo{
+    font-size: 24px;
+    color: #F9FAF8;
+    flex-grow: 3;
 }
 
-.lastsection{
-    padding: 100px;
+.topbox{
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.herosection{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+/* Lunar Phase Section */
+
+.firstsection{
     background-color: #F9FAF8;
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
+
+.lunardescription{
+    text-align: center;
     font-size: 36px;
-    color: #1f2937;
+    font-weight: 900;
+    color: #1F2937;
+    font-family: roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 5px;
 }
 
-.insidesection{
-    background-color: #3882F6;
-    border-radius: 25px;
+
+.lunarboxesone, 
+.lunarboxestwo{
+    display: flex;
     text-align: center;
+    justify-content: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    gap: 50px;
 }
 
-button{
-    border: 2px solid white;
-    background-color: #3882F6;
-    color: white;
-    padding: 2.5%;
-}
-
-
-footer{
-    background-color: #1f2937;
-    color: white;
-    text-align: center;
-}
-
-a{
-  color: white;  
-}
-.lunarboxes{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    text-align: center;
-    /* grid-gap: 10px 10px; */
+.lunarboxestwo{
+    margin: 5px;
 }
 
 .boxone,
@@ -68,22 +81,115 @@ a{
 .boxsix,
 .boxseven,
 .boxeight{
-    border: 5px solid #3882F6;
-    border-radius: 25px;
-    padding: 2.5%;
-    margin: 10em;
+    border: .20rem solid #3882F6;
+    border-radius: 55px;
+    padding: 3rem;
 }
 
-.lunardescription{
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
+.boxone{
+    background-color: #3881f654;
+}
+
+.boxtwo{
+    background: linear-gradient(270deg, blue, rgb(255, 255, 255) 25%, rgb(255, 255, 255));
+}
+
+.boxthree{
+    background: linear-gradient(270deg, blue, blue 5%, white 50%);
+}
+
+.boxfour{
+    background: linear-gradient(270deg, blue, blue 5%, white 80%);
+}
+
+.boxfive{
+    background-color: blue;
+}
+
+.boxsix{
+    background: linear-gradient(90deg, blue, blue 5%, white 80%);
+}
+
+.boxseven{
+    background: linear-gradient(90deg, blue, blue 5%, white 50%);
+}
+
+.boxeight{
+    background: linear-gradient(90deg, blue, rgb(255, 255, 255) 25%, rgb(255, 255, 255));
+}
+
+.moontextone,
+.moontexttwo{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Quote Section ------------------------------------- Complete */
+
+.secondsection{
+    background-color: #E5E7EB;
     font-size: 36px;
+    font-style: italic;
     color: #1F2937;
-    margin: 50px;
+    text-align: center;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
-img{
-   height:200px;
-   width: 200px;
+.authorquote{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    padding-left: 35rem;
 }
 
+/* lorem section */
+
+.thirdsection{
+    background-color: #F9FAF8;
+    padding: 3rem;
+    text-align: center;
+}
+
+.buttonsection{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-right: 10rem;
+    margin-left: 10rem;
+}
+
+button {
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 5px;
+    color: #F9FAF8;
+    padding: .5rem;
+}
+
+/* Footer */
+
+footer{
+    background-color: #1F2937;
+    color: white;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: grid;
+    justify-content: center;
+}
+
+.moonsources{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+/* Misc */
+
+a{
+    color: white;
+}
